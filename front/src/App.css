@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  }
+  h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+  }
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  }
+  form {
+  margin-bottom: 20px;
+  }
+  form div {
+  margin-bottom: 10px;
+  }
+  form label {
+  display: block;
+  margin-bottom: 5px;
+  }
+  form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  }
+  form input[type="submit"] {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  form input[type="submit"]:hover {
+  background-color: #218838;
+  }
+  ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  li {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  li div {
+  display: flex;
+  align-items: center;
+  }
+  li div input[type="text"] {
+  margin-right: 10px;
+  }
+  li button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  li button.edit {
+  background-color: #ffc107;
+  color: #fff;
+  }
+  li button.edit:hover {
+  background-color: #e0a800;
+  }
+  li button.delete {
+  background-color: #dc3545;
+  color: #fff;
+  }
+  li button.delete:hover {
+  background-color: #c82333;
+  }
+  
